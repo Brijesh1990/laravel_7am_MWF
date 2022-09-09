@@ -1,0 +1,108 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header 
+{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0 !important;
+    z-index: 3;
+    background-color: white !important;
+    box-shadow: 0px 2px lightgray;
+}
+.contact-details
+{
+    color: #306fcf;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.navbar 
+{
+    width: 100% !important;
+    height: auto !important;
+    background-color: #306fcf;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 35px;
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar-brand
+{
+    font-size: 20px !important;
+    color: white !important;
+    margin-left: 5% !important;
+}
+.navbar-link a:hover  
+{
+    color: white !important;
+}
+.dropdown-menu 
+{
+    background-color: #306fcf !important;
+}
+.line1 
+{
+    border-bottom: solid 2px lightgray !important;
+}
+.line 
+{
+    border-right: solid 2px lightgray;
+}
+#error 
+{
+    color: red !important;
+}
+.footer
+{
+    width: 100%;
+    height: auto;
+    background-color: #131336 !important;
+}
+.footer-link li 
+{
+    display: block !important;
+}
+.footer-link a 
+{
+    color: white;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+#btn 
+{
+    background-color: #306fcf !important;
+    color: white !important;
+}
+.bi-facebook,.bi-instagram,.bi-google,.bi-telegram,.bi-twitter 
+{
+    font-size: 24px;
+    letter-spacing: 10px;
+    color: #306fcf;
+    transition: 0.5s ease all;
+}
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-google:hover,
+.bi-telegram:hover,
+.bi-twitter:hover 
+{
+    font-size: 27px;
+    letter-spacing: 10px;
+    color: #306fcf;
+    transform: rotate(360deg);
+    color: red;
+    position: relative !important;
+}
+
+

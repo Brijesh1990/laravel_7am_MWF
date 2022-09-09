@@ -1,0 +1,13 @@
+body 
+{
+    /* background-color: lightgray; */
+    background: url('../images/background.webp') no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.container 
+{
+    background-color: rgba(40, 0, 0, 0.2);
+}

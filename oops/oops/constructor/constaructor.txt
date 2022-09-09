@@ -1,0 +1,12 @@
+what is constructor ?
+A constructor is a same name of the class when we called an object of that class constructor automatically called.
+syntax :
+
+class staish
+{
+    public function satish()
+    {
+        statements
+    }
+}
+$obj=new satish;
