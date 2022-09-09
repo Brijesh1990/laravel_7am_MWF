@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function cnf()
+        {
+            if(confirm('Are yopu sure to logout'))
+            {
+                alert('You are Logout successfully')
+                window.location='https://www.flipkart.com';
+
+            }
+            else 
+            {
+                
+                window.location='confirm.html';
+
+            }
+        }
+    
+    </script>
+</head>
+<body>
+
+    <center>
+    <button type="button" onclick="cnf()">Logout here!</button>
+    </center>
+</body>
+</html>

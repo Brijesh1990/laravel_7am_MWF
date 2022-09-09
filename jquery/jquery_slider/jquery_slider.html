@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/jquery.min.js'></script>
+    <script src='js/cycle.min.js'></script>
+    <script>
+    $(document).ready(function(){
+
+        // slider used here
+        $("#slide").cycle("fade");
+       
+        $("#log").click(function(){
+
+            $("#login").slideToggle(1000);
+        })
+    })
+    </script>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #login 
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            display: none;
+            transition: 0.5 ease all;
+            transform: rotate(720deg);
+            position: absolute;
+            margin-left: 25%;
+            margin-top: -32%;
+            z-index: 10;
+           
+        }
+
+        .navbar
+        {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            padding: 20px;
+        }
+        .navbar ul li 
+        
+        {
+            display: inline-block;
+            padding: 5px 25px;
+            font-size: 20px;
+        }
+        .navbar a 
+        {
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 30px;
+        }
+
+        .slider 
+        {
+            width: 90%;
+            height: 350px;
+            margin-top: 5%;
+            margin-left: 5%;
+            z-index: -10;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+    <ul>    
+    <li><a href="#">logo</a></li>    
+   <li><a href="#"> <button type="button" id="log">Login</button>
+    |
+    <button type="button" id="btn2">Register</button>
+    </a>
+    </li>
+    
+    </ul>
+    </div>
+    <div class="slider">
+        <div id="slide">
+         <img src="https://images.pexels.com/photos/12903147/pexels-photo-12903147.jpeg?auto=compress&cs=tinysrgb&w=600" style="width: 100%; height: 350px">
+
+         <img src="https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&w=600" style="width: 100%; height: 350px">
+
+         <img src="https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=600" style="width: 100%; height: 350px">
+        </div>
+    </div>
+    <div id="login">
+
+        <h1>Login form</h1>
+        <label>Enter Email *</label>
+        <input type="text" name="em" placeholder="Email *" required>
+        <br><br>
+        <label>Enter Password *</label>
+        <input type="password" name="pass" placeholder="Password *" required>
+        <br><br>
+        <input type="submit" name="login" value="Login">
+        <a href="#">Forget password ?</a>
+        <br><br>
+        
+        
+    </div>   
+
+</body>
+</html>
